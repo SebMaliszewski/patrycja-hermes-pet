@@ -65,6 +65,10 @@ The production atlas contains all nine Hermes/Petdex rows:
 The lossless WebP atlas is 1536×1872 pixels. Every cell is 192×208 pixels and
 uses real transparency.
 
+Version 1.0.1 rebuilds the atlas from 2× working frames with one high-quality
+Lanczos reduction. It preserves Patrycja's original design, animation timing
+and on-screen size while making her face, curls and small gestures clearer.
+
 ## What the plugin does
 
 At gateway startup it verifies the bundled spritesheet's SHA-256 and copies
@@ -91,13 +95,13 @@ still present. Installation is idempotent and uses atomic file replacement.
 Production spritesheet SHA-256:
 
 ```text
-37af1de78cffe721067d9495b710418484f2394bace0a08329ab9fbe56bfbd13
+e3f2e1bb04979926569b60cfa02471968fc52f966b27ce115c346da641ea9551
 ```
 
 Showcase GIF SHA-256:
 
 ```text
-d24e3794a125b53f47cabfb1b3098d05ef9721e87d34378b9b126fd31d3eea3b
+710bea20880751b3cb7283946e07c90f0cbdb1b99149e63807a2982f5fb3f1fb
 ```
 
 ## Credits and license
@@ -108,4 +112,3 @@ original and AI-assisted.
 
 Code and bundled artwork are released under the [MIT License](LICENSE), so you
 may use, modify and redistribute them with the copyright notice preserved.
-

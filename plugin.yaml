@@ -1,5 +1,5 @@
 name: patrycja_pet
-version: "1.0.0"
+version: "1.0.1"
 description: >-
   Installs Patrycja, an animated nine-state desktop mascot for Hermes Agent.
   The plugin only copies its bundled public pet assets into the profile-local
@@ -7,4 +7,3 @@ description: >-
 author: "Sebastian Maliszewski & Kacper"
 provides_hooks:
   - on_session_start
-

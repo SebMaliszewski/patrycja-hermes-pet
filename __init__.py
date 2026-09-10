@@ -12,7 +12,7 @@ from typing import Any
 
 PLUGIN_VERSION = "1.0.0"
 PET_SLUG = "patrycja"
-SPRITESHEET_SHA256 = "37af1de78cffe721067d9495b710418484f2394bace0a08329ab9fbe56bfbd13"
+SPRITESHEET_SHA256 = "e3f2e1bb04979926569b60cfa02471968fc52f966b27ce115c346da641ea9551"
 
 _ROOT = Path(__file__).resolve().parent
 _ASSETS = _ROOT / "assets"
@@ -87,4 +87,3 @@ def register(ctx: Any) -> None:
     # first session. The hook also self-heals a missing asset later on.
     install_pet()
     ctx.register_hook("on_session_start", _ensure_on_session_start)
-
